@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('git clone'){
       steps{
-        sh 'git clone https://github.com/ShaankariVoruganti/test/kub'
+        sh 'git clone https://github.com/ShaankariVoruganti/test'
       }
     }
         stage('init'){
